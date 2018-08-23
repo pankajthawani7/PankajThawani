@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.pankajthawani.workshopproject.SignUpActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/signname"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+        android:id="@+id/nameText"
+        android:layout_marginTop="80sp"
+        android:textColorHint="#000"
+        android:drawableStart="@drawable/name"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160sp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailText"
+        android:textColorHint="#000"
+        android:drawableStart="@drawable/eml"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240sp"
+        android:hint="Enter Password"
+        android:textColorHint="#000"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/pass"
+        android:id="@+id/passText"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="confirm Password"
+        android:textColorHint="#000"
+        android:inputType="textPassword"
+        android:layout_marginTop="320sp"
+        android:drawableStart="@drawable/pass"
+        android:id="@+id/confirmpassText"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="400sp"
+        android:text="Sign Up"
+        android:id="@+id/signupBtn"/>
+
+</RelativeLayout>
