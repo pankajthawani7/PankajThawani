@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context="com.example.pankajthawani.workshopproject.MainPageActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="e-Cart"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:id="@+id/nameText"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:text="Login"
+        android:textSize="20sp"
+        android:id="@+id/loginBtn"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="sign Up"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="400sp"
+        android:id="@+id/signBtn"/>
+
+</RelativeLayout>

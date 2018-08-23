@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context="com.example.pankajthawani.workshopproject.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logintext"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120sp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000"
+        android:id="@+id/emailText"
+        android:drawableLeft="@drawable/eml"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textColorHint="#000"
+        android:id="@+id/passText"
+        android:layout_marginTop="200sp"
+        android:drawableLeft="@drawable/pass"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#fff"
+        android:layout_marginTop="300sp"
+        android:id="@+id/loginBtn"
+        android:background="@android:color/holo_blue_dark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textSize="15sp"
+        android:layout_marginTop="380sp"
+        android:textColor="#000"
+        android:id="@+id/forgot"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
